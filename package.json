@@ -1,0 +1,30 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^1.0.0-rc.5",
+    "@chakra-ui/icons": "^1.0.0-rc.5",
+    "@nivo/bar": "^0.62.0",
+    "@nivo/bump": "^0.62.0",
+    "@nivo/sankey": "^0.62.0",
+    "google-spreadsheet": "^3.0.13",
+    "next": "latest",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "swr": "^0.3.5"
+  },
+  "devDependencies": {
+    "@types/google-spreadsheet": "^3.0.1",
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}
